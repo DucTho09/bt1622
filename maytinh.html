@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Máy Tính</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Máy Tính</h1>
+	<script type="text/javascript">
+		function cong(a,b) {
+			sum = a+b;
+			return sum;
+		}
+		function sub(a,b) {
+			sub = a-b;
+			return sub;
+		}
+		function mul(a,b) {
+			mul = a*b;
+			return mul;
+		}
+		function div(a,b) {
+			div = a/b;
+			return div;
+		}
+		a = parseInt(prompt('Nhập giá trị của a'))
+		b = parseInt(prompt('Nhập giá trị của b'))
+		document.write('Tổng của a và b là: ' +cong(a,b) +'<br>')
+		document.write('Hiệu của a và b là: ' +sub(a,b) +'<br>')
+		document.write('Thương của a và b là: ' +div(a,b) +'<br>')
+		document.write('Tích của a và b là: ' +mul(a,b) +'<br>')
+	</script>
+
+</body>
+</html>
